@@ -56,11 +56,3 @@ The dataset `house_prices.csv` contains the following columns:
 
 ---
 
-## 🧠 Model Building
-
-Used **Linear Regression** from `sklearn.linear_model`:
-
-```python
-from sklearn.linear_model import LinearRegression
-model = LinearRegression()
-model.fit(X_train, y_train)
